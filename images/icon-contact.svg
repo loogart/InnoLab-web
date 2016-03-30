@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="43px" viewBox="0 0 58 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-contact</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-contact" transform="translate(0.000000, -15.000000)">
+            <g id="Fill-4618" transform="translate(0.000000, 15.000000)" fill="#FFFFFF">
+                <path d="M16.6,2.662 C8.88,2.662 2.6,8.942 2.6,16.66 C2.6,24.38 8.88,30.66 16.6,30.66 L16.84,30.66 C17.22,30.66 17.54,30.86 17.72,31.162 C17.9,31.48 17.9,31.88 17.7,32.18 L13.66,38.8 L28.48,30.782 C28.64,30.7 28.8,30.66 28.96,30.66 L41.54,30.66 C49.28,30.66 55.58,24.32 55.58,16.5 C55.58,8.88 49.3,2.662 41.6,2.662 L16.6,2.662 L16.6,2.662 Z M10.88,42.44 C10.6,42.44 10.34,42.34 10.16,42.142 C9.84,41.822 9.78,41.32 10.02,40.92 L15.1,32.602 C6.98,31.84 0.6,24.98 0.6,16.66 C0.6,7.84 7.78,0.66 16.6,0.66 L41.6,0.66 C50.42,0.66 57.58,7.76 57.58,16.5 C57.58,25.42 50.38,32.662 41.54,32.662 L29.22,32.662 L11.36,42.32 C11.2,42.42 11.04,42.44 10.88,42.44 L10.88,42.44 Z"></path>
+            </g>
+            <rect id="Rectangle-1" x="0" y="0" width="58" height="58"></rect>
+        </g>
+    </g>
+</svg>
