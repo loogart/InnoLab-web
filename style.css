@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: #f8f8f8;
+    background-color: #333;
 }
 
 h1,
@@ -648,6 +648,12 @@ p {
 
 .section-2 {
     padding: 1em 5em 5em;
+    background-color: #f8f8f8;
+}
+
+.footer-strikethrough {
+    text-decoration: line-through;
+    color: #e0e0e0;
 }
 
 
@@ -681,7 +687,12 @@ p {
 }
 
 .fip-navbar {
-    height: 1rem;
+    height: 16px;
+    width: 65px;
+    display: block;
+    background-image: url('./images/wmms_redflag.svg');
+    background-position: center;
+    background-size: cover;
 }
 
 .pure-button-white-o {
@@ -1157,4 +1168,32 @@ p {
     background-color: #fafafa;
     color: #08c;
     width: 100%;
+}
+
+.modal-app-card .modal-content {
+    border-radius: 20px;
+    background-color: #fafafa;
+    color: #333;
+    text-align: left;
+}
+
+.modal-app-card .modal-content .modal-footer > button {
+    background-color: #fafafa;
+    color: #08c;
+    width: 50%;
+}
+
+.modal-app-card .modal-content .modal-footer > button:last-child {
+    background-color: #08c;
+    font-weight: 600;
+    color: #fff;
+    width: 50%;
+}
+
+.section-footer {
+    padding: 3em 3em;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 12px 22px rgba(0, 0, 0, 0.15);
 }
