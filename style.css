@@ -207,7 +207,7 @@ p {
         position: fixed;
         z-index: 1032;
         top: 0;
-        left: -85%;
+        right: -170%;
         width: 85%;
         height: 100%;
         background-color: #fafafa;
@@ -224,7 +224,7 @@ p {
         position: fixed;
         z-index: 1032;
         top: 0;
-        left: 0;
+        right: 0;
         width: 85%;
         height: 100%;
         background-color: #fafafa;
@@ -397,7 +397,7 @@ p {
         position: fixed;
         z-index: 1032;
         top: 0;
-        left: -40%;
+        right: -80%;
         width: 40%;
         height: 100%;
         background-color: #fafafa;
@@ -414,7 +414,7 @@ p {
         position: fixed;
         z-index: 1032;
         top: 0;
-        left: 0;
+        right: 0;
         width: 40%;
         height: 100%;
         background-color: #fafafa;
@@ -619,6 +619,30 @@ p {
 
 .img-j1 {
     background-image: url("./images/softwaredesign.jpg");
+}
+
+.img-watson {
+    background-image: url("./images/app_watson.jpg");
+}
+
+.img-watson-2 {
+    background-image: url("./images/app_watson2.png");
+}
+
+.img-marvel {
+    background-image: url("./images/app_marvel3.gif");
+}
+.img-marvel-2 {
+    background-image: url("./images/app_marvel2.jpeg");
+}
+
+.img-prezi {
+    background-image: url("./images/app_prezi3.gif");
+}
+
+.img-prezi-2 {
+    background-image: url("./images/app_prezi2.png");
+    background-color:#5cc3f6;
 }
 
 
@@ -1196,4 +1220,7 @@ p {
     color: #fff;
     border: none;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 12px 22px rgba(0, 0, 0, 0.15);
+}
+.modal-app-card-support {
+    font-size:.9em;font-weight:500;margin-top:40px;color:#777;
 }
