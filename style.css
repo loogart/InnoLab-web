@@ -681,6 +681,11 @@ p {
     background-color: #f8f8f8;
 }
 
+.section-3 {
+    padding: 4em 5em 5em;
+    background-color: #f8f8f8;
+}
+
 .footer-strikethrough {
     text-decoration: line-through;
     color: #e0e0e0;
@@ -811,7 +816,7 @@ p {
 /* menu responsive horizontal */
 
 .custom-menu-wrapper {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     white-space: nowrap;
     position: fixed;
     width: 100%;
@@ -886,7 +891,7 @@ p {
 }
 
 .custom-menu-screen {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     height: 3em;
