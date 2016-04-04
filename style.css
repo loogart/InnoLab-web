@@ -1,13 +1,24 @@
 /*----- Global Elements -----*/
+
 html,
 body {
     height: 100%;
     margin: 0px;
     /*font-family: 'Raleway', sans-serif;*/
-    
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-style: normal;
     font-family: "Gotham A", "Gotham B", "M Hei PRC W45", "M Hei HK W42", "M Hei HK W40", "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -60,11 +71,13 @@ h5 {
 
 h6 {
     font-size: 1.5rem;
-    line-height: 1.6;
+    font-weight: 300;
+    line-height: 1em;
     letter-spacing: 0;
+    margin-top:1.4em;
 }
 
-p {
+p, ul, li {
     font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 100;
@@ -357,6 +370,13 @@ p {
         padding: 10% 5% 15%;
         text-align: center;
     }
+    .text-block-2 {
+        padding: 5% 0 0;
+        text-align: left;
+    }
+    .text-block-2 h4:not(:first-child) {
+        margin-top: 1.5em;
+    }
 }
 
 
@@ -606,6 +626,13 @@ p {
         padding: 5% 25% 3%;
         text-align: center;
     }
+    .text-block-2 {
+        padding: 5% 0 0;
+        text-align: left;
+    }
+    .text-block-2 h4:not(:first-child) {
+        margin-top: 1.5em;
+    }
 }
 
 
@@ -626,8 +653,13 @@ p {
 .img-j1 {
     background-image: url("./images/softwaredesign.jpg");
 }
+
 .img-j2 {
     background-image: url("./images/type-keyboard.jpeg");
+}
+
+.img-j3 {
+    background-image: url("./images/mountain.jpeg");
 }
 
 .img-watson {
@@ -641,6 +673,7 @@ p {
 .img-marvel {
     background-image: url("./images/app_marvel3.gif");
 }
+
 .img-marvel-2 {
     background-image: url("./images/app_marvel2.jpeg");
 }
@@ -651,7 +684,7 @@ p {
 
 .img-prezi-2 {
     background-image: url("./images/app_prezi2.png");
-    background-color:#5cc3f6;
+    background-color: #5cc3f6;
 }
 
 .img-fluid {
@@ -661,9 +694,11 @@ p {
 .img-coggle {
     background-image: url("./images/app_coggle.png");
 }
+
 .img-coggle-2 {
     background-image: url("./images/app_coggle2.png");
 }
+
 
 /*----- optional css -----*/
 
@@ -695,7 +730,7 @@ p {
 }
 
 .section-3 {
-    padding: 2em 5em 5em;
+    padding: 2em 6em 5em;
     background-color: #f8f8f8;
 }
 
@@ -1251,6 +1286,10 @@ p {
     border: none;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 12px 22px rgba(0, 0, 0, 0.15);
 }
+
 .modal-app-card-support {
-    font-size:.9em;font-weight:500;margin-top:40px;color:#777;
+    font-size: .9em;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #777;
 }
