@@ -626,6 +626,9 @@ p {
 .img-j1 {
     background-image: url("./images/softwaredesign.jpg");
 }
+.img-j2 {
+    background-image: url("./images/type-keyboard.jpeg");
+}
 
 .img-watson {
     background-image: url("./images/app_watson.jpg");
@@ -651,6 +654,16 @@ p {
     background-color:#5cc3f6;
 }
 
+.img-fluid {
+    background-image: url("./images/app_fluid.png");
+}
+
+.img-coggle {
+    background-image: url("./images/app_coggle.png");
+}
+.img-coggle-2 {
+    background-image: url("./images/app_coggle2.png");
+}
 
 /*----- optional css -----*/
 
@@ -682,7 +695,7 @@ p {
 }
 
 .section-3 {
-    padding: 4em 5em 5em;
+    padding: 2em 5em 5em;
     background-color: #f8f8f8;
 }
 
@@ -1190,6 +1203,12 @@ p {
     border-radius: 20px;
     background-color: #111;
     color: #fff;
+}
+
+.modal-black-card .modal-content .modal-footer > a:last-child {
+    background-color: #111;
+    color: #08c;
+    width: 50%;
 }
 
 .modal-white-card .modal-content {
