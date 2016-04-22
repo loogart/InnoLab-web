@@ -702,6 +702,16 @@ li {
     background-image: url("./images/app_coggle2.png");
 }
 
+.img-plasticity {
+    background-image: url("./images/app_plasticity_2.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-color: #f04f55;
+}
+
+.img-plasticity-2 {
+    background-image: url("./images/app_plasticity.jpeg");
+}
 
 /*----- optional css -----*/
 
