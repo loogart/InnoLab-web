@@ -1,13 +1,12 @@
 //fade in effect
 $(document).ready(function () {
     $('body').css('display', 'none');
-    $('body').fadeIn(1500);
+    $('body').fadeIn(250);
     $('.pure-menu-link').click(function (event) {
         event.preventDefault();
         newLocation = this.href;
-        $('body').fadeOut(500, newpage);
+        $('body').fadeOut(250, newpage);
     });
-
     function newpage() {
         window.location = newLocation;
     }

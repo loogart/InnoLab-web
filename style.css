@@ -5,6 +5,8 @@ body {
     height: 100%;
     margin: 0px;
     /*font-family: 'Raleway', sans-serif;*/
+        background-color: #111;
+
 }
 
 h1,
@@ -21,10 +23,6 @@ h6,
 .h6 {
     font-style: normal;
     font-family: "Gotham A", "Gotham B", "M Hei PRC W45", "M Hei HK W42", "M Hei HK W40", "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-body {
-    background-color: #000;
 }
 
 h1,
