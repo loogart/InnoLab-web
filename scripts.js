@@ -1,7 +1,7 @@
 //fade in effect
 $(document).ready(function () {
     $('body').css('display', 'none');
-    $('body').fadeIn(500);
+    $('body').fadeIn(50);
     $('.pure-menu-link').click(function (event) {
         event.preventDefault();
         newLocation = this.href;
@@ -48,10 +48,3 @@ $(document).ready(function () {
         limit1 = $(window).height();
     });
 });
-// menu horizontal
-(function (window, document) {
-    document.getElementById('toggle').addEventListener('click', function (e) {
-        document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
-        document.getElementById('toggle').classList.toggle('x');
-    });
-})(this, this.document);

@@ -43,10 +43,12 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
                 <li class="pure-menu-item"><a href="how-it-works.html" class="pure-menu-link">How it works</a></li>
-                <li class="pure-menu-item active"><a href="#!" class="pure-menu-link">Toolkit</a></li>
-                <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact</a></li>
+                <li class="pure-menu-item active"><a href="toolkit.html" class="pure-menu-link">Explore</a></li>
+                <li class="pure-menu-item"><a href="build.html" class="pure-menu-link">Build</a></li>
+                <li class="pure-menu-item"><a href="share.html" class="pure-menu-link">Share</a></li>
             </ul>
             <ul class="pure-menu-list align-right">
+                <li class="pure-menu-item"><a href="#!" class="pure-menu-link">Contact</a></li>
                 <li class="pure-menu-item"><a href="#!" class="pure-menu-link toggle-drawer">FR</a></li>
                 <!--<li class="pure-menu-item"><a href="#" class="pure-menu-link toggle-drawer">Log in <span class="icon-play"></span></a></li>-->
             </ul>
@@ -56,7 +58,7 @@
     <div class="j1 img-j2">
         <div class="text-block-1">
             <h3 class="baby-blue">Innolab</h3>
-            <h1>Toolkit</h1>
+            <h1>Explore</h1>
 
         </div>
     </div>
@@ -64,9 +66,11 @@
     <!-- section 3: Toolkit-->
     <div class="pure-g section-3">
         <div class="pure-u-1 text-block-1">
-            <h4>Let your ideas flow.</h4>
-            <p>At the InnoLAB, we truly believe that every idea is worthwhile exploring. That is why we have currated a toolkit that will quickly enable you develop your ideas.</p>
-            <a href="contact.html" class="button-simple-link">Your idea is ready to build?</a>
+            <h4>Your toolkit.</h4>
+            <p>We have chosen a series of tools to give you the opportunity to digitally innovate. See what we have below, more apps will be added in the future.</p>
+            <p>Since the Innolab is also a proof-of-concept, we have a finite amount of licenses for our available tools. Similar to library, our licenses are provided on a timely basis of 1-3 weeks. If you want to permanently use a tool, or have any questions, contact Us!
+            </p>
+            <a href="contact.html" class="button-simple-link">Request a Tool</a>
         </div>
 
         <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3">
@@ -118,7 +122,7 @@
                 </div>
             </a>
         </div>
-        
+
         <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-3">
             <a class="card" href="" target="_blank" data-toggle="modal" data-target="#appPlasticity">
                 <div class="card-image img-plasticity"></div>
@@ -258,7 +262,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Modal App Plasticity -->
     <div class="modal fade" id="appPlasticity" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-app-card" role="document">
@@ -285,7 +289,15 @@
     <script src="scripts.js"></script>
     <script src="modal.js"></script>
     <script src="stellar.js"></script>
-    
+    <script>
+        // menu horizontal
+        (function (window, document) {
+            document.getElementById('toggle').addEventListener('click', function (e) {
+                document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+                document.getElementById('toggle').classList.toggle('x');
+            });
+        })(this, this.document);
+    </script>
 </body>
 
 </html>

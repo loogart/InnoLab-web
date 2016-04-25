@@ -370,6 +370,11 @@ li {
         padding: 10% 5% 15%;
         text-align: center;
     }
+    
+    .text-block-1 {
+        padding: 10% 5% 15%;
+        text-align: left;
+    }
 }
 
 
@@ -616,8 +621,13 @@ li {
         color: #08c;
     }
     .text-block-1 {
-        padding: 5% 25% 3%;
+        padding: 2% 20% 1%;
         text-align: center;
+    }
+    
+     .text-block-3 {
+        padding: 2% 20% 0;
+        text-align: left;
     }
     .margin-20-right {
         margin-right: 20px;
@@ -1310,3 +1320,5 @@ li {
     margin-top: 40px;
     color: #777;
 }
+
+hr.subtle{border:1px dotted #ccc;}
