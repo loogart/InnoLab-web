@@ -1,7 +1,7 @@
 //fade in effect
 $(document).ready(function () {
     $('body').css('display', 'none');
-    $('body').fadeIn(250);
+    $('body').fadeIn(500);
     $('.pure-menu-link').click(function (event) {
         event.preventDefault();
         newLocation = this.href;
