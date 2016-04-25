@@ -62,7 +62,7 @@
 
     <!-- section 3: Toolkit-->
     <div class="pure-g section-3">
-       
+
         <div class="pure-u-1 text-block-2">
             <p>GAC employees often have many ideas which, using the right technology, could benefit the department in significant ways. Often times these ideas are never fully explored, primarily because employees do not have a means to expand on their ideas.</p>
             <p>For IM/IT, all projects, big or small, run through the same intake process. As a result, smaller projects rarely come to fruition because of the demands of larger, more complex projects being supported. Projects deemed as disruptive, different or innovative rarely succeed in the SID Intake process because they do not appear to be as important as other, more streamlined proposals.</p>
@@ -83,7 +83,7 @@
             </ul>
             <a href="toolkit.html" class="pure-button pure-button-blue" style="">Get started</a>
         </div>
-        
+
         <div class="pure-u-1 pure-u-md-1-2 text-block-2">
             <!-- content here -->
             <h4>2. Build (Coming Soon)</h4>
@@ -255,68 +255,10 @@
 
     <!-- All javascript below -->
     <script src="jquery.min.js"></script>
+    <script src="scripts.js"></script>
     <script src="modal.js"></script>
     <script src="stellar.js"></script>
-    <script>
-        //fade in effect
-        $(document).ready(function () {
-            $('body').css('display', 'none');
-            $('body').fadeIn(500);
-            $('.pure-menu-link').click(function (event) {
-                event.preventDefault();
-                newLocation = this.href;
-                $('body').fadeOut(500, newpage);
-            });
-
-            function newpage() {
-                window.location = newLocation;
-            }
-        });
-        //drawer toggle
-        $(document).ready(function () {
-            $(".toggle-drawer").click(function () {
-                $('.toggle').toggleClass('drawer-closed drawer-open');
-                $('.backdrop').toggleClass('like-its-hot');
-                $('body').toggleClass('scrollable not-scrollable');
-            });
-        });
-        //drawer ESC toggle
-        $(document).on('keydown', function (e) {
-            if (e.keyCode === 27) {
-                $(".drawer-open").toggleClass('drawer-closed drawer-open');
-                $('.backdrop').removeClass('like-its-hot');
-                $('body').removeClass('not-scrollable');
-            }
-        });
-        //parallax effect
-        $(window).stellar({
-            horizontalScrolling: false,
-            responsive: false
-        });
-        //scroll change navbar color
-        $(document).ready(function () {
-            //var limit = $('.navbar').height() + $('.j1').height();
-            var limit1 = $(window).height();
-            $(window).scroll(function () {
-                var scrollVal = $(this).scrollTop();
-                if (scrollVal > limit1) {
-                    $('.navbar').addClass('navbar-inverse');
-                } else {
-                    $('.navbar').removeClass('navbar-inverse');
-                }
-            });
-            $(window).resize(function () {
-                limit1 = $(window).height();
-            });
-        });
-        // menu horizontal
-        (function (window, document) {
-            document.getElementById('toggle').addEventListener('click', function (e) {
-                document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
-                document.getElementById('toggle').classList.toggle('x');
-            });
-        })(this, this.document);
-    </script>
+    
 </body>
 
 </html>
