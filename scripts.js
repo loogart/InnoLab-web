@@ -27,11 +27,6 @@ $(document).on('keydown', function (e) {
         $('body').removeClass('not-scrollable');
     }
 });
-//parallax effect
-$(window).stellar({
-    horizontalScrolling: false,
-    responsive: false
-});
 //scroll change navbar color
 $(document).ready(function () {
     //var limit = $('.navbar').height() + $('.j1').height();
