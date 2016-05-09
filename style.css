@@ -693,6 +693,10 @@ li {
     background-image: url("./images/share_banner.jpg");
 }
 
+.img-j6 {
+    background-image: url("./images/discussion.jpg");
+}
+
 .img-watson {
     background-image: url("./images/app_watson.jpg");
 }
@@ -739,6 +743,28 @@ li {
 
 .img-plasticity-2 {
     background-image: url("./images/app_plasticity.jpeg");
+}
+
+.img-ideascale {
+    background-image: url("./images/app_ideascale2.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.img-ideascale-2 {
+    background-image: url("./images/app_ideascale.jpg");
+}
+
+.img-tableau {
+    background-image: url("./images/app_tableau2.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.img-tableau-2 {
+    background-image: url("./images/app_tableau.jpg");
 }
 
 
@@ -1336,4 +1362,19 @@ li {
 
 hr.subtle {
     border: 1px dotted #ccc;
+}
+.add-new {
+    text-align: center;
+    padding:10% 0;
+    color:#ccc;
+    border:2px dotted #ccc;
+    transition:all .25s ease-in;
+    box-shadow: none;
+
+}
+
+.add-new:hover {
+    color:#aaa;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 12px 22px rgba(0, 0, 0, 0.15);
+
 }

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>InnoLAB 2.0 Share</title>
+    <title>InnoLAB 2.0 Build</title>
 
     <link rel="stylesheet" href="pure.css">
     <link rel="stylesheet" href="grids-responsive.css">
@@ -45,8 +45,8 @@
                 <li class="pure-menu-item"><a href="how-it-works.html" class="pure-menu-link">How it works</a></li>
                 <li class="pure-menu-item"><a href="toolkit.html" class="pure-menu-link">Explore</a></li>
                 <li class="pure-menu-item"><a href="build.html" class="pure-menu-link">Build</a></li>
-                <li class="pure-menu-item active"><a href="share.html" class="pure-menu-link">Share</a></li>
-                <li class="pure-menu-item"><a href="discuss.html" class="pure-menu-link">Discuss</a></li>
+                <li class="pure-menu-item"><a href="share.html" class="pure-menu-link">Share</a></li>
+                <li class="pure-menu-item active"><a href="discuss.html" class="pure-menu-link">Discuss</a></li>
             </ul>
             <ul class="pure-menu-list align-right">
                 <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact</a></li>
@@ -55,28 +55,43 @@
         </div>
     </div>
     <!-- jumbotron -->
-    <div class="j1 img-j5">
+    <div class="j1 img-j6">
         <div class="text-block-1">
             <h3 class="baby-blue">Innolab</h3>
-            <h1>Share</h1>
+            <h1>Discuss</h1>
 
         </div>
     </div>
 
     <div class="pure-g section-3">
-        <!-- section 1: Ready to protoype blurb-->
-        <div class="pure-u-1 text-block-1">
-            <h4>Is your prototype successful?</h4>
-            <p>We can rapidly develop your prototype into final production.</p>
-<p>If your prototype shows to benefit your intended audience, we will work with you to make it a fully-fledged departmental offering! Otherwise, if your prototype didn’t succeed, No problem! We would like to write a failure report with you for lessons learned.
-If you have any questions, contact Us! Or view How it Works!
-</p>
-        </div>
+        <!-- section 1: start a conversation-->
+        <div class="pure-u-1 text-block-3">
+            <h4>Start a conversation</h4>
+            <p></p>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
 
-        <div class="pure-u-1 text-block-1">
-            <hr class="subtle">
-            <h6>Let's publish and share our app!</h6>
-            <a href="contact.html" class="pure-button pure-button-blue" style="">Request a review</a>
+                var disqus_config = function () {
+                    this.page.url = 'http://loog.ca/2'; // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = "Loogart test page"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                        s = d.createElement('script');
+
+                    s.src = '//innolab-discussions.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
         </div>
     </div>
 
@@ -116,6 +131,7 @@ If you have any questions, contact Us! Or view How it Works!
             });
         })(this, this.document);
     </script>
+    <script id="dsq-count-scr" src="//innolab-discussions.disqus.com/count.js" async></script>
 </body>
 
 </html>
