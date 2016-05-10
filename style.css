@@ -697,6 +697,11 @@ li {
     background-image: url("./images/discussion.jpg");
 }
 
+.img-j7 {
+    background-image: url("./images/start.jpg");
+    background-position: 50% 0;
+}
+
 .img-watson {
     background-image: url("./images/app_watson.jpg");
 }
@@ -1398,7 +1403,7 @@ hr.subtle {
     }
     .nav-secondary {
         position: fixed;
-        margin-top: 50px;
+        margin-top: 48px;
         background-color: rgba(255,255,255,.9);
         width: 100%;
         padding: 0 15px;
