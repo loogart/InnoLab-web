@@ -32,16 +32,16 @@ $(document).on('keydown', function (e) {
 //scroll change navbar color
 $(document).ready(function () {
     //var limit = $('.navbar').height() + $('.j1').height();
-    var limit1 = $(window).height();
+    var limit1 = $('.nav-secondary').height();
     $(window).scroll(function () {
         var scrollVal = $(this).scrollTop();
         if (scrollVal > limit1) {
-            $('.navbar').addClass('navbar-inverse');
+            $('.nav-secondary').addClass('nav-secondary-scrolled');
+            $('.w-nav-secondary').addClass('hide');
         } else {
-            $('.navbar').removeClass('navbar-inverse');
+            $('.nav-secondary').removeClass('nav-secondary-scrolled');
+            $('.w-nav-secondary').removeClass('hide');
         }
     });
-    $(window).resize(function () {
-        limit1 = $(window).height();
-    });
+    
 });

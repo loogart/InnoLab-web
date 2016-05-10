@@ -702,6 +702,10 @@ li {
     background-position: 50% 20%;
 }
 
+.img-j8 {
+    background-image: url("./images/visit.jpg");
+}
+
 .img-watson {
     background-image: url("./images/app_watson.jpg");
 }
@@ -1388,15 +1392,15 @@ hr.subtle {
 /* secondary nav css */
 
 .nav-secondary {
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: rgba(245, 245, 245, .9);
-    z-index:4;
+    z-index: 4;
 }
 
-.nav-secondary a{
+.nav-secondary a {
     text-decoration: none;
-    color:#222;
+    color: #222;
 }
 
 .nav-secondary ul,
@@ -1405,8 +1409,9 @@ hr.subtle {
 }
 
 @media screen and (max-width: 767px) {
-    ul.list-inline{margin-left:-30px;}    
-    
+    ul.list-inline {
+        margin-left: -30px;
+    }
     ul.list-inline li {
         display: inline-block;
         margin-right: 25px;
@@ -1425,11 +1430,17 @@ hr.subtle {
         margin-top: 48px;
         padding: 0 15px;
     }
-        .nav-secondary li a.active {
+    .nav-secondary-scrolled {
+        position: fixed;
+        margin-top: 0px;
+        background-color: rgba(245, 245, 245, .97);
+    }
+    .nav-secondary li a.active {
         color: #5cc3f6;
     }
-    .hidden-xs {display:none;}
-    
+    .hidden-xs {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1451,6 +1462,11 @@ hr.subtle {
     .nav-secondary {
         margin-top: 60px;
         padding: 0 30px;
+    }
+    .nav-secondary-scrolled {
+        position: fixed;
+        margin-top: 0px;
+        background-color: rgba(245, 245, 245, .97);
     }
     .nav-secondary li a.active {
         color: #5cc3f6;
