@@ -939,9 +939,9 @@ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 .custom-menu-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    z-index: 3;
+    z-index: 4;
 }
 
 .custom-menu {
@@ -1391,10 +1391,10 @@ hr.subtle {
 /* secondary nav css */
 
 .nav-secondary {
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: rgba(245, 245, 245, .9);
-    z-index: 2;
+    z-index: 3;
 }
 
 .nav-secondary a {
@@ -1409,7 +1409,7 @@ hr.subtle {
 
 @media screen and (max-width: 767px) {
     ul.list-inline {
-        margin-left: -30px;
+        margin-left: -25px;
     }
     ul.list-inline li {
         display: inline-block;
@@ -1427,7 +1427,7 @@ hr.subtle {
     }
     .nav-secondary {
         margin-top: 48px;
-        padding: 0 15px;
+        padding:0;
     }
     .nav-secondary-scrolled {
         position: fixed;
