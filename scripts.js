@@ -36,10 +36,10 @@ $(document).ready(function () {
         var scrollVal = $(this).scrollTop();
         if (scrollVal > limit1) {
             $('.nav-secondary').addClass('nav-secondary-scrolled');
-            $('.w-nav-secondary').addClass('hide');
+            //$('.w-nav-secondary').addClass('hide');
         } else {
             $('.nav-secondary').removeClass('nav-secondary-scrolled');
-            $('.w-nav-secondary').removeClass('hide');
+            //$('.w-nav-secondary').removeClass('hide');
         }
     });
     
