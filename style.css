@@ -1476,3 +1476,14 @@ hr.subtle {
 .j1-secondary {
     padding-top: 210px;
 }
+.free-app {
+    color:red;
+    background-color:  deepskyblue;
+    color:#fff;
+    z-index:2;
+    text-align: center;
+    position:relative;
+    padding:5px;
+    top:-25px;
+    margin-bottom:-25px;
+}
