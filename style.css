@@ -1393,8 +1393,9 @@ hr.subtle {
 .nav-secondary {
     position: absolute;
     width: 100%;
-    background-color: rgba(245, 245, 245, .9);
+    background-color: rgba(245, 245, 245, .8);
     z-index: 3;
+    border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 .nav-secondary a {
