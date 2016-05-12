@@ -754,15 +754,15 @@ li {
     background-image: url("./images/app_plasticity.jpeg");
 }
 
-.img-ideascale {
-    background-image: url("./images/app_ideascale2.png");
+.img-uservoice {
+    background-image: url("./images/app_uservoice1.svg");
     background-size: 80%;
     background-repeat: no-repeat;
-    background-color: #fff;
+    background-color: #4db9ea;
 }
 
-.img-ideascale-2 {
-    background-image: url("./images/app_ideascale.jpg");
+.img-uservoice-2 {
+    background-image: url("./images/app_uservoice3.svg");
 }
 
 .img-tableau {
