@@ -677,6 +677,8 @@ li {
     background-image: url("./images/phone1.jpg");
 }
 
+
+
 .img-j2 {
     background-image: url("./images/type-keyboard.jpg");
 }
@@ -1500,4 +1502,8 @@ hr.subtle {
     padding: 5px;
     top: -25px;
     margin-bottom: -25px;
+}
+.j1-light {
+    color:#333;
+
 }
